@@ -1,0 +1,99 @@
+.navbar{
+    background-color:  transparent;
+    
+}
+.navbar-brand{
+    color: #fed136 !important;
+    font-size: 36px;
+}
+.nav-item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Verdana', 'sans-serif';
+    padding: 7px;
+}
+.nav-item a{
+    color: white !important;
+    text-transform: uppercase;
+}
+i.fa-bars{
+    color: wheat;
+    font-size: 26px;
+}
+#main{
+    background-image: url('img/vespa.jpg');
+    position: relative;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:0;
+    left:0;
+    height: 600px;
+    width: 100%;
+}
+#main-content{
+    margin-top:170px;
+}
+#title2{
+    color: white;
+}
+#title{
+    color: white;
+    font-size: 80px;
+}
+#button{
+    background-color: #fed136;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 1px 1px 2px;
+}
+#button:hover{
+    background-color: white;
+    color:#fed136;
+}
+.card{
+    border:none;
+}
+#services{
+   margin-bottom: 30px;
+}
+#services .fa{
+    font-size: 76px;
+    background: #fed136;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-top: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+#services h4{
+    font-size: 36px;
+    font-weight: 300;
+}
+#services p{
+    font-size: 22px;
+    color:#333;
+}
+@media (max-width: 767.98px) { 
+    #title2{
+        color: white;
+        font-size:26px;
+    }
+    #title{
+        color: white;
+        font-size: 40px;
+    }
+ }
+ #portfolio h3{
+   padding: 15px;
+ }
